@@ -1,0 +1,44 @@
+body
+{
+    background-color: rgb(229, 229, 231);
+    font-family: sans-serif; 
+}
+.container
+{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: 2px solid rgb(83, 179, 235);
+    border-radius: 20px;
+    text-align: center;
+    margin: 100px auto;
+}
+.container h2
+{
+    display: inline-block;
+    color: rgb(55, 136, 242);
+}
+.container input
+{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+.top{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.login {
+    background-color: rgb(24,119,242);
+    margin-top: 24px;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    color: aliceblue;
+}

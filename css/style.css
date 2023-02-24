@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+width: 100%;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    height: 96px;
+    display: flex;
+    /* Canh giua theo chieu doc */
+    justify-content: center; 
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    padding: 10px 24px;
+    color: black;
+}
+.menu>ul>li>a:hover{
+    background-color: rgb(58, 9, 9);
+    color: aliceblue;
+}
+.menu>ul{
+    display: flex;
+}
+.slug>span{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.section-1{
+    background-color: rgb(164, 161, 161);
+}
+/* .slug>span{
+    padding-left: 30px;
+} */
+.content{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    height: 600px;
+}
+.left{
+    flex: 2;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    flex: 1;
+    /* background-color: rgb(23, 17, 30); */
+    margin-left: 12px;
+}
+.gutter{
+    margin-top: 24px;
+}
+.top{
+    flex: 1;
+    margin-bottom: 12px;
+    display: flex;
+}
+.left-1{
+    flex: 1;
+    margin-right: 12px;
+    background-color: blueviolet;
+}
+.right-1{
+    flex: 1;
+    margin-left: 12px;
+    background-color: blueviolet;
+}
+
+.bottom{
+    flex: 1;
+    margin-top: 12px;
+    display: flex;
+}
+.price{
+    margin-top: 12px;
+    display: flex;
+}
+.price-sale{
+    flex: 1;
+    color: red;
+    font-weight: 700;
+}
+.price-buy{
+    flex: 4;
+    color: rgb(143, 139, 139);
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.divider{
+    height: 1px;
+    background-color: rgb(120, 110, 110);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 50%;
+    width: 70%;
+}
+img{
+    width: 450px;
+    height: 366px;
+}

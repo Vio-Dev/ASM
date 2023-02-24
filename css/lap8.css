@@ -1,0 +1,191 @@
+.main-cart{
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.cart-header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+}    
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table-header{
+    border-bottom: 2px solid #222;
+}
+.table-item>td{
+    height: 80px;
+}
+.tb-item>img{
+    height: 70px;
+    margin: 5px;
+}
+.tb-text{
+    margin-left: 40px;
+    margin: 10px;
+
+}
+td>input{
+    background-color: #222;  
+}
+td>button{
+    font-size: 17px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+.tb-product{
+    width: 50%;
+}
+.tb-sell{
+    width: 10%;
+}
+.tb-number{
+    text-align: center;
+    width: 20%;
+}
+.tb-mony{
+    text-align: center;
+    width: 10%;
+}
+.tb-acction{
+    text-align: center;
+    width: 10%;
+}
+.table-footer{
+    height: 80px;
+}
+.table-footer>td{
+
+    text-align: center;
+}
+.buynow{
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(224,66,66);
+    color: #fff;
+}
+.yt-icon{
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #d61121;
+    color: #fff;
+}
+.clear{
+    margin: auto;
+    width: 70%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #e04242;
+    color: #fff;
+}
+.hidden{
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #48e419;
+}
+.all{
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #2dcf84;
+}
+.cart-footer{
+    border: 2px solid #000000;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+}
+.fl{
+    margin: 20px;
+    width: 40%;
+}
+.fr{
+    margin: 20px;
+    width: 60%;
+}
+.fl-1{
+    display: flex;
+    min-height: 60px;
+}
+.fl-2{
+    min-height: 60px;
+}
+.fl-3{
+    min-height: 60px;
+}
+.textr{
+    line-height: 60px;
+    width: 50%;
+    text-align: right;
+}
+.textl{
+    line-height: 60px;
+    width: 50%;
+}
+.fl-4{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.voucher{
+    border-left: 4px dotted #fff ;
+    display: flex;
+    width: 40%;
+    height: 80px;
+    background-color: #968a8a;
+    margin: 10px;
+}
+.voucher>div{
+    margin: auto;
+    color: white;
+}
+.vcr>button{
+    height: 30px;
+    width: 60px;
+    font-size: 10px;
+}
+.fr>div{
+    height: 60px;
+}
+.fr-1{
+    display: flex;
+}
+.fr-6{
+    display: flex;
+    border-bottom:2px solid #0eaddd;
+}
+.buy,.cn{
+    height: 50px;
+    width: 50%;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(221, 56, 56);
+    margin: auto;
+    margin-top: 10px;
+    color: #fff;
+}
+h2{
+    color: #0eaddd;
+    font-size: 10px;
+}
+h1{
+    font-size: 15px;
+    color: red;
+}
